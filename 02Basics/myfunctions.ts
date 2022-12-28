@@ -1,4 +1,4 @@
-function addTwo(num: number){
+function addTwo(num: number): number{
     return num + 2
 }
 
@@ -14,5 +14,32 @@ addTwo(5)
 getUpper('four')
 signUpUser('Billy', 'Billy@popcorn.com', true)
 loginUser('Hale', 'hale@hale.com')
+
+// function getValue(myVal: number){
+//     if(myVal > 5) {
+//         return true
+//     }
+//     return "200 OK"
+// }
+
+const getHello = (s: string):string => {
+    return ''
+}
+
+// typescript automaticly reconizes a change when you comment one out
+const heros = ["thor", "spiderman", "ironman"]
+// const heros = [1, 2, 3]
+
+heros.map((hero): string => {
+    return `hero is ${hero}`
+})
+
+function consoleError(errmsg: string): void{
+    console.log(errmsg);
+}
+
+function handleError(errmsg: string): never{
+    throw new Error(errmsg);
+}
 
 export {}
