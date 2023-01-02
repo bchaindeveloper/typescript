@@ -6,7 +6,7 @@ This is me following along with the FreeCodeCamp Typescript tutorial.
 ## Motivation:
 
 Perfecting my TypeScript skills.
-
+ 
 
 ## Built with:
 TypeScript
