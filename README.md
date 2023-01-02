@@ -7,8 +7,6 @@ This is me following along with the FreeCodeCamp Typescript tutorial.
 
 Perfecting my TypeScript skills.
 
-## Screenshots:
-
 
 ## Built with:
 TypeScript
